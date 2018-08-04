@@ -55,25 +55,25 @@ $ sudo docker-compose up
 
 6. Open simulation and control environment
 
-a. Use gazebo to open a world (terminal 4)
+  a. Use gazebo to open a world (terminal 4)
 
 ```bash
 $ roslaunch robot_simulation_pkg simulation.launch
 ```
 
-b. Navigation (terminal 5)
+  b. Navigation (terminal 5)
 
 ```bash
 $ roslaunch robot_navigation_pkg multi_navigation.launch
 ```
 
-c. Open central control node (terminal 6)
+  c. Open central control node (terminal 6)
 
 ```bash
 $ roslaunch central_control_pkg multi_control.launch
 ```
 
-d. Publish a test instruction (terminal 7)
+  d. Publish a test instruction (terminal 7)
 
 ```bash
 $ rostopic pub /speaker std_msgs/String 3:a
