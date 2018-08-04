@@ -22,6 +22,11 @@ $ vim ~/rosev3/gripp3r/.env
 MASTER_URI=http://xxx.xxx.xxx.xxx:xxx
 ```
 
+## Network Architecture
+
++ eth0: Local Area Network, connect to the AP with a cable.
++ eth1: Static IP, connect to the router with a cable.
+
 ## Execution Progress
 
 1. Run roscore (terminal 1)
