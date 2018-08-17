@@ -51,7 +51,7 @@ $ ev3_manager
 
 ```bash
 $ cd ~/rosev3/gripp3r/
-$ sudo docker-compose up
+$ sudo sh rosini.sh
 ```
 
 5. Wait connection
@@ -88,5 +88,5 @@ $ rostopic pub /speaker std_msgs/String 3:a
 
 ```bash
 $ cd ~/rosev3/gripp3r/
-$ sudo docker-compose down
+$ sudo sh down.sh
 ```
