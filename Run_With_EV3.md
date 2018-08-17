@@ -78,7 +78,13 @@ $ roslaunch robot_navigation_pkg multi_navigation.launch
 $ roslaunch central_control_pkg multi_control.launch
 ```
 
-  + (d) Publish a test instruction (terminal 7)
+  + (d) Run converter (terminal 7)
+
+```bash
+$ roslaunch robot_converter_pkg vel_converter.launch
+```
+
+  + (e) Publish a test instruction (terminal 8)
 
 ```bash
 $ rostopic pub /speaker std_msgs/String 3:a
