@@ -5,6 +5,7 @@
 + [Create New Package](Create_New_Package.md)
 + [Add World](Add_World.md)
 + [Run With EV3](Run_With_EV3.md)
++ [Run With RPi3 Camera](Run_With_RPi3_Camera.md)
 
 ## Solved problems
 
