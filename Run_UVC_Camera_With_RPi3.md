@@ -1,4 +1,4 @@
-# Run With RPi3 Camera
+# Run UVC_Camera with RPi3
 
 1. Use RPi3
 + Method 1: Use RPi3 with screen
